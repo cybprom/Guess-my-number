@@ -199,6 +199,19 @@ input::-webkit-inner-spin-button {
         padding: 0 1.5rem;
     }
 
+    header {
+        position: relative; 
+        height: 40vh;
+        border-bottom: 7px solid #eee;
+    }
+
+    main {
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
     .right {
         font-size: 1rem;
     }
